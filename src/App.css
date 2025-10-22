@@ -12,3 +12,32 @@
   justify-content: center;
   gap: 20px;
 }
+
+.main:last-child {
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.win {
+  color: green;
+  border: 10px solid green;
+}
+
+.lose {
+  color: red;
+  border: 10px solid red;
+}
+
+.tie {
+  color: gray;
+  border: 10px solid gray;
+}
