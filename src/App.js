@@ -74,9 +74,9 @@ function App() {
         <Box title="computer" item={computerSelect} result={result} />
       </div>
       <div className="main">
-        <button onClick={() => play("scissors")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+        <button onClick={() => play("scissors")}>✂️</button>
+        <button onClick={() => play("rock")}>✊</button>
+        <button onClick={() => play("paper")}>✋</button>
       </div>
     </div>
   );
